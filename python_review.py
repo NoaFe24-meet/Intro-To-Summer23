@@ -19,7 +19,7 @@ for i in range(7):
 		odd_days.append(days_of_the_week[i])
 
 print (temperatures)
-for i in range(len(temperatures))
+for i in range(len(temperatures)):
 	print(i)
 	if highest_temp<temperatures[i]:
 		print(highest_temp)
@@ -48,3 +48,6 @@ for i in range(7):
 print (" the avr temp is: ", avr_temp)	
 
 
+sorted_temperatures = sorted(temperatures)
+print(f"regular: {temperatures}\n")
+print(f"sorted: {sorted_temperatures}")
